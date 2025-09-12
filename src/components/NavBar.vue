@@ -1,6 +1,8 @@
 <template>
     <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
+        <!-- Logo -->
         <div class="text-[#4D4D4D] text-3xl font-bold">MJ/MC</div>
+        
         <!-- Mobile Toggle Button -->
         <div class="md:hidden z-30">
             <button type="button"
@@ -28,20 +30,43 @@
                     </a>
                 </li>
             </ul>
+            <!-- Dark Mode Toogle Button 
+            <button
+                @click="toggleDarkMode"
+                class="hidden md:block p-2 rounded-lg bg-gray-200 dark:bg-gray-700 
+                        text-gray-800 dark:text-gray-200 transition"
+                >
+                {{ isDark ? "☀️ Light" : "🌙 Dark" }}
+            </button>-->
          </nav>
     </header>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 const Menu =ref([
-    {name:'Services', href:'#services'},
     {name:'About Me', href:'#about'},
+    {name:'Services', href:'#services'},
     {name:'Projects', href:'#projects'},
-    {name:'Contact', href:'#contact'},
+    {name:'Projects', href:'#projects'},
+    {name:'Contact', href:'#contact'}
 ])
 
 const isMenuOpen =ref(false)
+const isDark = ref(false)
+
+onMounted(() => {
+    // Load theme from localStorage
+    isDark.value = localStorage.getItem("theme") === "dark"
+    document.documentElement.classList.toggle("dark", isDark.value)
+})
+
+const toggleDarkMode = () => {
+    isDark.value = !isDark.value
+    document.documentElement.classList.toggle("dark", isDark.value)
+    localStorage.setItem("theme", isDark.value ? "dark" : "light")
+}
+
 const scrollToSection =(href)=>{
     isMenuOpen.value=false;
     const section=document.querySelector(href);
