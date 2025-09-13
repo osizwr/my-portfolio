@@ -20,7 +20,7 @@
           <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
             <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
               <span class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-[#4D4D4D] border-2 border-transparent"></span>
-              <span class="relative flex ittems-center justify-center text-[#fafafa]">Hire Me</span>
+              <span class="relative flex items-center justify-center text-[#fafafa]"><a href="#contact">Let's Work Together</a></span>
             </button>
             <button class="border border-[#4d4d4d] px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
               <div class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
@@ -34,7 +34,7 @@
                 </svg>
                 <div class="download-loader text-[#4d4d4d] hidden"></div>
               </div>
-              <a href="/src/assets/resume.pdf" download="resume.pdf" class="pl-2 text-[#4d4d4d]">Download Resume</a>
+              <a href="/src/assets/resume.pdf" download="resume.pdf" class="pl-2 text-[#4d4d4d]">Download CV</a>
               </div>
             </button>
           </div>
@@ -55,6 +55,6 @@
 
 <script setup>
 import AOS from 'aos';
-import 'aos/dist/aos';
+import 'aos/dist/aos.css';
 AOS.init();
 </script>
