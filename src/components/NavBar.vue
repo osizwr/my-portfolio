@@ -25,7 +25,7 @@
                 <li v-for="item in Menu" :key="item.name">
                     <a href="item.href"
                     class="block text-[#4D4D4D] transition hover:text-[#4a5aec] ease-linear text-2xl md:text-lg"
-                    @click="scrollToSection(item.href)">
+                    @click.prevent="scrollToSection(item.href)">
                         {{ item.name }}
                     </a>
                 </li>
@@ -45,9 +45,8 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 const Menu =ref([
-    {name:'About Me', href:'#about'},
+    {name:'About', href:'#about'},
     {name:'Services', href:'#services'},
-    {name:'Projects', href:'#projects'},
     {name:'Projects', href:'#projects'},
     {name:'Contact', href:'#contact'}
 ])
