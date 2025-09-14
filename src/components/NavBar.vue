@@ -1,8 +1,7 @@
 <template>
-    <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
+    <header class="font-mono flex justify-between items-center p-6 bg-opacity-50 relative z-20">
         <!-- Logo -->
-        <div class="text-[#4D4D4D] text-3xl font-bold">MJ/MC</div>
-        
+        <div class="text-[#4D4D4D] text-3xl font-bold flex">MJ/MC</div>
         <!-- Mobile Toggle Button -->
         <div class="md:hidden z-30">
             <button type="button"
