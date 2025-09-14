@@ -3,7 +3,7 @@
         <div class="px-4 xl:pl-16">
             <div class="mb-4 flex justify-center xl:pr-16">
                 <div class="flex space-x-4 mb-4 mt-5 md:mt-0">
-                    <button class="text-2xl hover:text-[#4a5aec]" v-for="category in ['All', 'Web App', 'Mobile App']"
+                    <button class="cursor-pointer text-2xl hover:text-[#4a5aec]" v-for="category in ['All', 'Web App', 'Mobile App']"
                     :key="category" @click="() => selectedCategory = category">
                         {{ category }}
                     </button>
