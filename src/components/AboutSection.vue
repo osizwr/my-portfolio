@@ -1,5 +1,5 @@
 <template>
-    <section class="text-[#4d4d4d] mt-18" id="about">
+    <section class="font-mono text-[#4d4d4d] mt-18" id="about">
         <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
             <div data-aos="flip-right">
                 <h2 class="font-mono text-4xl font-bold text-[#4d4d4d] mb-8 text-left">Tech Stack</h2>
@@ -23,18 +23,22 @@
             </div>
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
                 <h2 class="font-mono text-4xl font-bold text-[#4d4d4d] md:text-center mb-4 text-left">About Me</h2>
-                <p class="font-mono text-base lg:text-lg mt-8 py-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui facere libero cupiditate fugit minima voluptates numquam est eos voluptate saepe eius amet harum provident accusamus omnis sit in cum incidunt dolorum, necessitatibus illo reiciendis ipsam debitis velit! Itaque officia architecto fugit, cum dolorum eos dolore quaerat quis nobis id similique!</p>
-                <div class="grid grid-cols-4 gap-5 max-w-lg pt-8">
+                <p class="font-mono text-base lg:text-lg mt-8 py-8">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui facere libero cupiditate fugit minima voluptates numquam est eos voluptate saepe eius amet harum provident accusamus omnis sit in cum incidunt dolorum, necessitatibus illo reiciendis ipsam debitis velit! Itaque officia architecto fugit, cum dolorum eos dolore quaerat quis nobis id similique!<br/>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui facere libero cupiditate fugit minima voluptates numquam est eos voluptate saepe eius amet harum provident accusamus omnis sit in cum incidunt dolorum, necessitatibus illo reiciendis ipsam debitis velit! Itaque officia architecto fugit, cum dolorum eos dolore quaerat quis nobis id similique!<br/>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui facere libero cupiditate fugit minima voluptates numquam est eos voluptate saepe eius amet harum provident accusamus omnis sit in cum incidunt dolorum, necessitatibus illo reiciendis ipsam debitis velit! Itaque officia architecto fugit, cum dolorum eos dolore quaerat quis nobis id similique!
+                </p>
+                <div class="lg:ml-[25%] grid grid-cols-2 gap-4 max-w-lg pt-8">
                     <div class="text-center rounded-xl bg-[#fafafa] shadow-lg border border-[#4d4d4d] p-3">
-                        <h3 class="font-mono text-[#4d4d4d] font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
+                        <h3 class="font-mono text-[#4d4d4d] font-bold text-xl sm:text-2xl lg:text-3xl">+15</h3>
                         <p class="font-mono text-sm sm:text-base text-[#4d4d4d]">Happy Client</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#fafafa] shadow-lg border border-[#4d4d4d] p-3">
-                        <h3 class="font-mono text-[#4d4d4d] font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
+                        <h3 class="font-mono text-[#4d4d4d] font-bold text-xl sm:text-2xl lg:text-3xl">+21</h3>
                         <p class="font-mono text-sm sm:text-base text-[#4d4d4d]">Projects</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#fafafa] shadow-lg border border-[#4d4d4d] p-3">
-                        <h3 class="font-mono text-[#4d4d4d] font-bold text-xl sm:text-2xl lg:text-3xl">+200</h3>
+                        <h3 class="font-mono text-[#4d4d4d] font-bold text-xl sm:text-2xl lg:text-3xl">+6</h3>
                         <p class="font-mono text-sm sm:text-base text-[#4d4d4d]">Years Experience</p>
                     </div>
                     <div class="text-center rounded-xl bg-[#fafafa] shadow-lg border border-[#4d4d4d] p-3">
