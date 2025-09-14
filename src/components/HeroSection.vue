@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full" data-aos="zoom-in-up">
+  <section class="font-mono relative w-full" data-aos="zoom-in-up">
     <div class="absolute top-0 inset-x-0 h-64 flex items-start">
       <div class="h-24 w-2/3 bg-gradient-to-br from-[#4a5aec] blur-2xl invisible opacity-40"></div>
       <div class="h-20 w-3/5 bg-gradient-to-r from-[#5a5aec] opacity-40 blur-2xl"></div>
