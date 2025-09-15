@@ -53,7 +53,7 @@ const Projects =ref([
     {
         id:1,
         category:'Web App',
-        image: 'https://i.pinimg.com/736x/a1/37/89/a13789d47818c18e3aaa332d0cd327a0.jpg',
+        image: '/src/assets/webdev.jpg',
         title: 'Project 1',
         description: 'my Description',
         technologies: ['VueJS', 'Vite', 'Tailwind CSS'],
@@ -63,7 +63,7 @@ const Projects =ref([
     {
         id:2,
         category:'Web App',
-        image: 'https://i.pinimg.com/736x/a1/37/89/a13789d47818c18e3aaa332d0cd327a0.jpg',
+        image: '/src/assets/webdev.jpg',
         title: 'Project 2',
         description: 'my Description',
         technologies: ['Django'],
@@ -73,7 +73,7 @@ const Projects =ref([
     {
         id:3,
         category:'Mobile App',
-        image: 'https://img.freepik.com/premium-photo/program-designer-developer-ai-generative_199064-2134.jpg',
+        image: '/src/assets/mobiledev.jpg',
         title: 'Project 3',
         description: 'my Description',
         technologies: ['VueJS'],
@@ -83,7 +83,7 @@ const Projects =ref([
     {
         id:4,
         category:'Web App',
-        image: 'https://i.pinimg.com/736x/a1/37/89/a13789d47818c18e3aaa332d0cd327a0.jpg',
+        image: '/src/assets/webdev.jpg',
         title: 'Project 4',
         description: 'my Description',
         technologies: ['HTML', 'CSS'],
